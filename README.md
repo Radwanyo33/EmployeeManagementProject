@@ -96,7 +96,7 @@ EmployeeManagementProject/
     Application will open at: http://localhost:3000
 
 ### 🎯 API Endpoints:
-
+```markdown
  Method	    Endpoint	                Description
 - GET	    /api/Employees	            Get all employees (with filtering)
 - GET	    /api/Employees/{id}	        Get employee by ID
@@ -104,7 +104,7 @@ EmployeeManagementProject/
 - PUT	    /api/Employees/{id}	        Update employee
 - DELETE	/api/Employees/{id}	        Delete employee permanently
 - PATCH	    /api/Employees/{id}/archive	Archive/restore employee
-
+```
 **Query Parameters for GET /api/Employees:**
 - searchTerm - Search across name, department, role, status
 
@@ -214,13 +214,13 @@ public class Employee
 4. Update TypeScript interfaces if needed
 
 **Database Migrations**
-
+```bash
 # Create new migration
 dotnet ef migrations add MigrationName
 
 # Update database
 dotnet ef database update
-
+```
 ### 🤝 Contributing
 
 1. Fork the repository
@@ -234,7 +234,7 @@ dotnet ef database update
 5. Open a Pull Request
 
 ### 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://license/) file for details.
 
 ### 👥 Authors
 
