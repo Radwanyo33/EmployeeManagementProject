@@ -36,6 +36,7 @@ A modern, responsive employee management dashboard that provides comprehensive C
 - ✅ **Empty States** and loading indicators
 
 ## 🏗️ Project Structure
+```markdown
 EmployeeManagementProject/
 ├── backend/
 │ └── EmployeeDashboardApi/
@@ -56,7 +57,7 @@ EmployeeManagementProject/
 │ ├── public/ # Static Assets
 │ └── package.json # Dependencies
 └── README.md
-
+```
 
 ## Quick Start
 
@@ -96,95 +97,96 @@ EmployeeManagementProject/
 
 ### 🎯 API Endpoints:
 
-Method	Endpoint	                Description
-GET	    /api/Employees	            Get all employees (with filtering)
-GET	    /api/Employees/{id}	        Get employee by ID
-POST	/api/Employees	            Create new employee
-PUT	    /api/Employees/{id}	        Update employee
-DELETE	/api/Employees/{id}	        Delete employee permanently
-PATCH	/api/Employees/{id}/archive	Archive/restore employee
+ Method	    Endpoint	                Description
+- GET	    /api/Employees	            Get all employees (with filtering)
+- GET	    /api/Employees/{id}	        Get employee by ID
+- POST	    /api/Employees	            Create new employee
+- PUT	    /api/Employees/{id}	        Update employee
+- DELETE	/api/Employees/{id}	        Delete employee permanently
+- PATCH	    /api/Employees/{id}/archive	Archive/restore employee
 
 **Query Parameters for GET /api/Employees:**
-searchTerm - Search across name, department, role, status
+- searchTerm - Search across name, department, role, status
 
-department - Filter by department
+- department - Filter by department
 
-status - Filter by status (Active/Archived)
+- status - Filter by status (Active/Archived)
 
-startDate / endDate - Filter by joining date range
+- startDate / endDate - Filter by joining date range
 
-sortBy - Sort field (name, department, joiningDate, etc.)
+- sortBy - Sort field (name, department, joiningDate, etc.)
 
-sortDescending - Sort direction
+- sortDescending - Sort direction
 
-page - Page number (default: 1)
+- page - Page number (default: 1)
 
-pageSize - Items per page (default: 10)
+- pageSize - Items per page (default: 10)
 
 ### 🎨 Frontend Features
 
 **Employee Dashboard**
 
-Table View: Traditional data table with sorting
+- Table View: Traditional data table with sorting
 
-Card View: Visual card layout for better UX
+- Card View: Visual card layout for better UX
 
-Global Search: Real-time search across all fields
+- Global Search: Real-time search across all fields
 
-Advanced Filters: Combine department, status, and date filters
+- Advanced Filters: Combine department, status, and date filters
 
-Pagination: Built-in pagination with page size options
+- Pagination: Built-in pagination with page size options
 
 **Employee Form**
 
-Drawer-based: Slide-in form for better UX
+- Drawer-based: Slide-in form for better UX
 
-Validation: Required fields and business rules
+- Validation: Required fields and business rules
 
-Save & Continue: Option to save and keep form open
+- Save & Continue: Option to save and keep form open
 
-Pre-filled Data: Auto-populate for edit operations
+- Pre-filled Data: Auto-populate for edit operations
 
 **Employee Actions**
 
-Edit: Update employee details
+- Edit: Update employee details
 
-Archive: Soft delete with archive status
+- Archive: Soft delete with archive status
 
-Delete: Permanent removal
+- Delete: Permanent removal
 
-Status Toggle: Switch between Active/Archived views
+- Status Toggle: Switch between Active/Archived views
 
 ### 🔧 Technology Stack
 
 **Backend**
 
-.NET 9.0 - Runtime
+- .NET 9.0 - Runtime
 
-ASP.NET Core Web API - Web Framework
+- ASP.NET Core Web API - Web Framework
 
-Entity Framework Core - ORM
+- Entity Framework Core - ORM
 
-SQL Server - Database
+- SQL Server - Database
 
-Swashbuckle - API Documentation
+- Swashbuckle - API Documentation
 
 **Frontend**
 
-React 18 - UI Library
+- React 18 - UI Library
 
-TypeScript - Type Safety
+- TypeScript - Type Safety
 
-Ant Design - UI Components
+- Ant Design - UI Components
 
-Axios - HTTP Client
+- Axios - HTTP Client
 
-Day.js - Date Manipulation
+- Day.js - Date Manipulation
 
 ### 📊 Data Model
 
 **Employee Entity**
-
+```markdown
+```csharp
 public class Employee
 {
     public int Id { get; set; }
@@ -198,8 +200,8 @@ public class Employee
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
 }
-
-### 🛠️ Development
+```
+###  🛠️ Development
 
 **Adding New Features**
 
@@ -240,10 +242,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### 🙏 Acknowledgments
 
-Ant Design for the beautiful UI components
+- Ant Design for the beautiful UI components
 
-.NET Team for the robust backend framework
+- .NET Team for the robust backend framework
 
-React Team for the excellent frontend library
+- React Team for the excellent frontend library
 
 **⭐ Star this repo if you found it helpful!**
