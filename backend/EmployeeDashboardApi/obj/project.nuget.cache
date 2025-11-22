@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0O7LYIxDPsQ=",
+  "dgSpecHash": "HgFtix+jdW8=",
   "success": true,
-  "projectFilePath": "D:\\Dotnet Projects\\EmployeeDashboard\\backend\\EmployeeDashboardApi\\EmployeeDashboardApi.csproj",
+  "projectFilePath": "D:\\employeeManagementProject\\backend\\EmployeeDashboardApi\\EmployeeDashboardApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MTBD\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\MTBD\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

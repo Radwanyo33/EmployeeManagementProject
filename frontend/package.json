@@ -1,5 +1,5 @@
 {
-  "name": "employee-dashboard-web",
+  "name": "employee-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,8 +12,9 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.2.6",
     "@types/react-dom": "^19.2.3",
-    "antd": "^5.29.1",
+    "antd": "^6.0.0",
     "axios": "^1.13.2",
+    "dayjs": "^1.11.19",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-scripts": "5.0.1",
@@ -43,8 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "json-server": "^1.0.0-beta.3"
   }
 }
